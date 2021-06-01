@@ -7,18 +7,23 @@ body{
     margin: 0%;
     padding: 0%;
     background-image: linear-gradient(to left, var(--secondary-color), var(--primary-color) 80%);
+    width: 100%;
     font-family: 'Russo One', sans-serif;
 }
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: auto;
+}
 .name{
-    display: flex;
     font-size: 50px;
     color: var(--alpha-color);
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 .jjwatt img{
-    height: 950px;
+    width: 100%;
     border-radius: 50px;
     
 }
@@ -30,24 +35,30 @@ body{
     text-align: center;
     font-size: 20px;
     line-height: 50px;
-}section{
+    padding: 20px;
+}
+section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: auto;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .nfl{
     background-color: var(--alpha-color);
     padding: 20px;
     width: 600px;
     border-radius: 5px 150px 5px 5px; 
-    margin-top: 60px;
-    margin-left: 40px;
     height: 150px;
 }
 .conquer{
     color: var(--alpha-color);
     padding: 10px;
-
 }
 .one{
     background-color: var(--primary-color);
@@ -74,14 +85,13 @@ body{
     text-align: center;
     border-radius: 5px 30px 5px 30px;
 }
+.poster{
+    margin: 0px;
+}
 .poster img{
-    margin-top: 100px;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    width: 700px;
-    height: 900px;
-    margin-right: 100px;
+    margin-top: 0px;
+    width: auto;
+    height: 500px;
 }
 .status{
     display: flex;
@@ -89,24 +99,12 @@ body{
     justify-content: center;
     background-color: var(--alpha-color);
     height: 200px;
-    width: 500px;
+    width: 400px;
     border-radius: 5px 150px 5px 5px; 
-    margin-left: 100px;
-    padding: 30px;
-    margin-bottom: 20px;
-    margin-top: -350px;
+    padding: 20px;
+    margin-top: 20px;
 }
-.st{
-    background-color: var(--primary-color);
-    height: 20px;
-    width: 200px;
-    color: var(--alpha-color);
-    margin-bottom: 5px;
-    padding: 7px;
-    border-radius: 5px 30px 5px 30px;
-    text-align: center;
-    
-}
+
 .st1{
 background-color: var(--primary-color);
     height: 20px;
@@ -174,7 +172,7 @@ background-color: var(--primary-color);
     margin-left:125px;
 }
 .big img{
-    width:1900px;
+    width:100%;
 
 }
 .footer{
@@ -184,5 +182,73 @@ background-color: var(--primary-color);
     font-size: 15px;
     height: 50px;
     color: var(--alpha-color);
-    
+}
+
+@media (max-width: 1000px) {
+    .history{
+        font-size: 18px;
+        line-height: 20px;
+        padding: 10px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .poster img{
+        margin: 0px;
+        width: 300px;
+        height: auto;
+        
+    }
+    .nfl{
+        margin: 10px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px 50px 5px 5px;
+    }
+    .one,.two,.three{
+        
+        font-size: 10px;
+        margin: 0px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .outside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .status{
+        margin: 10px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px 50px 5px 5px;
+    }
+    .st1,.st2,.st3,.st4,.st5,.st6{
+        font-size: 10px;
+        margin: 0px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 600px){
+
+    .history{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
+@media (max-width: 600px){
+    .footer{
+        font-size: 8px;
+    }
 }
