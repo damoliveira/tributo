@@ -1,0 +1,188 @@
+:root{
+    --primary-color:#03202F;
+    --secondary-color:#A71930;
+    --alpha-color: #FFFFFF;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to left, var(--secondary-color), var(--primary-color) 80%);
+    font-family: 'Russo One', sans-serif;
+}
+.name{
+    display: flex;
+    font-size: 50px;
+    color: var(--alpha-color);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.jjwatt img{
+    height: 950px;
+    border-radius: 50px;
+    
+}
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--alpha-color);
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nfl{
+    background-color: var(--alpha-color);
+    padding: 20px;
+    width: 600px;
+    border-radius: 5px 150px 5px 5px; 
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 150px;
+}
+.conquer{
+    color: var(--alpha-color);
+    padding: 10px;
+
+}
+.one{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px 30px 5px 30px;
+}
+.two{
+    background-color: var(--secondary-color);
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 5px 30px 5px 30px;
+}
+.three{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 400px;
+    margin-left: 150px;
+    text-align: center;
+    border-radius: 5px 30px 5px 30px;
+}
+.poster img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 700px;
+    height: 900px;
+    margin-right: 100px;
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--alpha-color);
+    height: 200px;
+    width: 500px;
+    border-radius: 5px 150px 5px 5px; 
+    margin-left: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: -350px;
+}
+.st{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    
+}
+.st1{
+background-color: var(--primary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+}
+.st2{
+    background-color: var(--secondary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    margin-left: 50px;
+}
+.st3{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    margin-left:100px;
+}
+.st4{
+    background-color: var(--secondary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    margin-left: 25px;
+    
+}
+.st5{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    margin-left: 75px;
+}
+.st6{
+    background-color: var(--primary-color);
+    height: 20px;
+    width: 200px;
+    color: var(--alpha-color);
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 5px 30px 5px 30px;
+    text-align: center;
+    margin-left:125px;
+}
+.big img{
+    width:1900px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 50px;
+    color: var(--alpha-color);
+    
+}
